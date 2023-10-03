@@ -1,0 +1,141 @@
+body{
+   /* Set line spacing */
+   line-height: 160%;
+
+   
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 50px 10px 50px;
+
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline-block;
+    padding: 20px 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 116, 0.665);
+    font-size: 120%;
+
+
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color: purple;
+
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-family: a;
+   font-size: 250%;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+}
+
+h3{
+    /*Set font size*/
+    font-size:150%;
+    color: yellow;
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+    margin: 10px 10px;
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    align-self: center;
+    grid-template-columns: 30% 30% 30%; 
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: solid darkslateblue;
+    border-spacing: auto auto;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+
+
+    padding: 10px 10px;
+
+
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    color: white;
+    background-color: darkgrey;
+    border-collapse: separate;
+    border-radius: 15px;
+    border: solid black 5px;
+    border-spacing: 15px 15px;
+    padding: 10px 15px;
+    box-shadow: 5px 10px orange;
+
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
